@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    overflow: hidden;
+    color: #202020;
+    font-family: "Roboto";
+    font-size: 15px;
+    width: 100vw;
+}
+
+.body {
+    margin: 0 auto;
+    width: 1440px;
+}
+
+header {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.07);
+    padding-left: 130px;
+    padding-right: 130px;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 42px;
+    list-style-type: none;
+}
+
+.y-auto {
+    margin: auto 0;
+}
+
+nav ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.demo {
+    color: white;
+    height: 42px;
+    width: 74px;
+    border-radius: 6px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2164E1;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 45px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 21px;
+}
+button{
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    height: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+button span{
+    margin: 0 auto;
+}
+.blue-button{
+    width: 131px;
+    background-color: #2164E1;
+}
+.green-button{
+    width: 83px;
+    background-color: #30B467;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 225px;
+}
